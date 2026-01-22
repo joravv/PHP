@@ -60,15 +60,23 @@ do{
 
     echo "the number is $numrii";
 $numrii++;
-}while($numrii <=5)
+}while($numrii <=5);
 
-$x =0{
-    for($x=0; $x<=10; $x++);
+    for($x=0; $x<=10; $x++){
 echo "the number is $x";
+    }
 
+
+
+
+$cars = array("audi", "ferrari", "lambo", "range rover");
+foreach ($cars as $value){
+    echo $value;
 }
 
 
-
-
+    $age = array("buna"=>"13", "jora"=>"14", "lumi"=>"3" );
+foreach ($age as $x=>$mosha){
+    echo "$x = $mosha <hr>";
+}
 ?>
