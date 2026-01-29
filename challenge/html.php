@@ -59,4 +59,9 @@ default:
 echo "lnvalid";
 break;
 }
+
+
+ $nr= array(25,6,8,3);
+ $nrdf=array_sum(array: $nr)/3;
+ echo $nr;
 ?>
