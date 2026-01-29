@@ -23,4 +23,40 @@ if($age==18){
     echo "personi nuk mund te votoj";
 }
 
+
+
+$nr = "5";
+switch($nr){
+    case "1" ;
+    echo "Monday";
+break;
+case" 2";
+    echo "Tuesday";
+break;
+
+case "3" ;
+    echo "Wednesday";
+break;
+
+case "4" ;
+    echo "Thursday";
+break;
+
+case "5" ;
+    echo "friday";
+break;
+
+case "6" ;
+    echo "saturday";
+break;
+
+case "7" ;
+    echo "sundday";
+break;
+
+
+default:
+echo "lnvalid";
+break;
+}
 ?>
