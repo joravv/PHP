@@ -21,7 +21,19 @@ for($x=0; $x<3; $x++){
     echo "</ul>";
 }
 
+$arianita = [
+    "Math"=>"3",
+    "Art"=>"5",
+    "History"=>"4",
+    "Music"=>"2"
+];
 
+
+echo "Arianitas math grade is ".$arianita['Math'];
+
+
+foreach($arjanita as $subjects =>$arjanita)
+    echo "subject"."$arjanita" "Grade".$arjanita."<hr>";
 
 ?>
 
