@@ -33,7 +33,7 @@ echo "Arianitas math grade is ".$arianita['Math'];
 
 
 foreach($arjanita as $subjects =>$arjanita)
-    echo "subject"."$arjanita" "Grade".$arjanita."<hr>";
+    echo "subject"."$arjanita". "Grade".$arjanita."<hr>";
 
 ?>
 

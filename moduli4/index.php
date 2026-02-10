@@ -53,5 +53,5 @@ for($i=0;$i<3; $i++){
 
    $numberss= [5, 4, 7, 87]
 
-   var_dump(array_sum($numberss/4));
+//    var_dump(array_sum($numberss/4));
 ?>
