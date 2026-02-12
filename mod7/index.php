@@ -14,7 +14,7 @@ $sql = "  CREATE DATABASE testnita";
 $conn->exces($sql);
 
         echo "Connected";
-      echo " database coonected"
+      echo " database coonected";
 
     }catch(Exeption $e){
 
