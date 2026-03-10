@@ -58,18 +58,16 @@ $users =$getUsers->fetchAll();
         <?php
         foreach($users as $user){?>
         <tr>
-        <td><?php echo $user['id'];?></td>
-        <td><?php echo $user['username'];?></td>
-        <td><?php echo $user['password'];?></td>
+        <td><?=  $user['id'];?></td>
+        <td><?=  $user['username'];?></td>
+        <td><?= $user['password'];?></td>
         <td><?="<a href='delete.php?id=$user[id]'>Delete</a>"?></td>
+        <td><?="<a href='update.php?id=$user[id]'>Update</a>"?></td>
         </tr>
         <?php }?>
         
 
     </table>
-    <form>
-        <input  type="hidden"name = "id" value="<?php echo users[username]">;
-        <button type="submit">update</button>
-    </form>
+   
 </body>
 </html>
